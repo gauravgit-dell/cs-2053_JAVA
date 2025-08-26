@@ -1,0 +1,15 @@
+package lab3;
+
+public class addition { 
+	public static void main(String[] args) {
+		if (args.length < 2) {
+			System.out.println("Please provide two numbers as command line argument.");
+			return;
+		}
+		Integer num1 = Integer.valueOf(args[0]);
+		Integer num2 = Integer.valueOf(args[1]);
+		int sum = num1+num2;
+		System.out.println("Sum:" + sum);
+	}
+
+}
